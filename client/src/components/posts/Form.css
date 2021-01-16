@@ -1,0 +1,60 @@
+.contact-section .contact-form {
+    margin-left: 50px;
+}
+
+
+.contact-section .contact-form .form-control {
+    height: 50px;
+    color: #555555;
+    border: none;
+    border-bottom: 2px solid #d9d9d9;
+    border-radius: 0px;
+}
+
+.contact-section .contact-form textarea .form-control{
+    height: 120px;
+}
+
+.contact-section .contact-form .form-control:focus{
+    box-shadow: none;
+   color: blueviolet;
+}
+.mybtn1{
+    background-color: rgb(13, 25, 196);
+    font-size: 12px;
+    font-weight:600;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 12px 36px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 5px;
+    margin-right: 0px;
+    color: lightgray;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.mybtn1:focus{
+    box-shadow: none;
+}
+.mybtn1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:0%;
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+.status{
+    font-size: 14px;
+    font-weight: 600;
+    color:rgb(13, 25, 196) ;
+}
