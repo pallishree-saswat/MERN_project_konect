@@ -1,0 +1,5 @@
+{
+    "mongoURI":"mongodb+srv://pallishree_behera:pallishree121096@fit-to-eat-njbmh.mongodb.net/facebook?retryWrites=true&w=majority",
+    "jwtSecret":"secret"
+
+}
